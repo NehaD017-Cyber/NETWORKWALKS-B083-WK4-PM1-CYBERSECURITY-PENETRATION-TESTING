@@ -23,6 +23,9 @@ A comprehensive hands-on penetration testing project evaluating the security pos
 ![Target: Mediroza General Hospital](https://img.shields.io/badge/Target-Mediroza_General_Hospital-E63946?style=for-the-badge&logo=hospital&logoColor=white)
 ![Network Walks](https://img.shields.io/badge/Network_Walks-008080?style=for-the-badge&logo=cisco&logoColor=white)
 
+Full black-box penetration test. Identify vulnerabilities, exploit them to demonstrate real impact, and document all findings in a
+professional report.
+
 ## 🔎 Project Overview
 
 This project executes a structured Penetration Testing and Vulnerability Assessment to evaluate and secure a target environment. The primary objective is to identify system vulnerabilities, demonstrate exploit vectors, and deliver actionable remediation strategies.
