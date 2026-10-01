@@ -255,7 +255,7 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 **Status:** Completed  
 **Date:** October 1, 2026  
 
-<img width="398" height="227" alt="Screenshot 2026-10-01 194440" src="https://github.com/user-attachments/assets/c3a86adc-e0f4-423d-a1ee-f78ba4755daf" />
+<img width="401" height="227" alt="Screenshot 2026-10-01 202555" src="https://github.com/user-attachments/assets/1ae95295-c987-4e33-8f7f-d5758d6ec68e" />
 
 ---
 ## 01. Executive Summary
