@@ -199,6 +199,25 @@ wget https://medirozahospital.com/old/mediroza_db_backup_2019.sql
 
 Old Directory
 
+```bash
+curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_backup_2019.sql
+```
+* Outputs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
