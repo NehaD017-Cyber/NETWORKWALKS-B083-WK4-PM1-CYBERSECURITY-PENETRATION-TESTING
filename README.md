@@ -254,6 +254,7 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 **Authorization:** Granted (5-Day Engagement Window by Mediroza Hospital)  
 **Status:** Completed  
 **Date:** October 1, 2026  
+
 ---
 ## 01. Executive Summary
 An authorized penetration testing engagement was conducted against the **Mediroza Hospital** web infrastructure to evaluate its overall security posture, identify potential attack vectors, and assess the risk of unauthorized data exposure. 
