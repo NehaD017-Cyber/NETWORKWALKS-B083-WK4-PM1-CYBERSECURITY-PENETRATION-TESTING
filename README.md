@@ -131,6 +131,7 @@ Gobuster – A high-speed command-line tool used to brute-force and discover hid
 Nikto – An open-source web server scanner that tests for dangerous files, outdated server software, configuration vulnerabilities, and security risks.
 
 WhatWeb – A web technology identifier that scans websites to detect technologies in use, including CMS platforms, web servers, embedded scripts, and analytics tools.
+
 ---
 * Outputs:
 
@@ -161,6 +162,7 @@ John the Ripper – A fast, open-source password security auditing tool designed
 Networkwalks tools – A suite of training utilities and scripts provided within the Networkwalks curriculum for performing controlled lab exercises, credential auditing, and security lab demonstrations.
 
 PDF Password Recovery – A general classification of utilities or software designed to analyze PDF document protection settings, remove known restrictions, or test password strength on encrypted PDF documents.
+
 ---
 * Outputs:
 
