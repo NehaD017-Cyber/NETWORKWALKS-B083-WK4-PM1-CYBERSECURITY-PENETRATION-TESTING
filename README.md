@@ -92,8 +92,9 @@ Recommendations & Remediation: Actionable defense-in-depth guidance to patch ide
 
 ---
 
-M1
-M i l e s t o n e 1
+## M1
+
+## M i l e s t o n e 1
 
 Attack the website and find the 3 confidential PDF lab reports of patients.
 
@@ -122,8 +123,9 @@ WhatWeb – A web technology identifier that scans websites to detect technologi
 Proof of access and the 3 retrieved PDF files.
 
 ---
-M2
-M i l e s t o n e 2
+## M2
+
+## M i l e s t o n e 2
 
 * Crack the encryption on all 3 retrieved files.
 
@@ -154,8 +156,9 @@ PDF Password Recovery – A general classification of utilities or software desi
 Recovered contents of all 3 files with proof of successful access.
 
 ---
-M3
-M i l e s t o n e 3
+## M3
+
+## M i l e s t o n e 3
 
 * Find the critical data exposure on the client server.
 
@@ -166,10 +169,35 @@ M i l e s t o n e 3
 • Find the shareholder details of the hospital.
 
 * Tools include:
+ Exiftool - Deep structural metadata extraction and recursive stream analysis on decrypted PDF files.
 
+    ```bash
+    exiftool -password '!@#$%^&' patient_report_3.pdf
+     ```
 
+    ```bash
+    exiftool -password 'password' patient_report_2.pdf
+    ```
 
+    ```bash
+    exiftool -password '123456' patient_report_1.pdf
+    ```
 
+Commands - 
+
+Database Backup Discovery
+
+Acting on the metadata comment, the following URL was accessed:
+
+https://medirozahospital.com/old/
+
+A publicly accessible database backup was found with no authentication required:
+
+mediroza_db_backup_2019.sql — 7KB 
+
+wget https://medirozahospital.com/old/mediroza_db_backup_2019.sql
+
+Old Directory
 
 
 
