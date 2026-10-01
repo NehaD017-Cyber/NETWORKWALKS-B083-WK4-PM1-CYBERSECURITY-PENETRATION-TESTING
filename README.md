@@ -250,7 +250,7 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 ## ✍️ Penetration Testing Assessment Report
 
 **Target System:** Mediroza Hospital Web Infrastructure (`NetworkWalks B083`)  
-**Assessment Type:** Penetration Testing Project  
+**Assessment Type:** Penetration Testing and Vulnerability Assessment
 **Authorization:** Granted (5-Day Engagement Window by Mediroza Hospital)  
 **Status:** Completed  
 **Date:** October 1, 2026  
