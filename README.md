@@ -32,7 +32,7 @@ A comprehensive hands-on penetration testing project evaluating the security pos
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![pikepdf](https://img.shields.io/badge/pikepdf-v8.0-yellow?style=for-the-badge&logo=python&logoColor=white)
 ![John The Ripper](https://img.shields.io/badge/John_The_Ripper-JTR-orange?style=for-the-badge&logo=kali-linux&logoColor=white)
-![Network Walks Tools](https://img.shields.io/badge/Network_Walks-B083V4-purple?style=for-the-badge&logo=linux&logoColor=white)
+![Network Walks Tools](https://img.shields.io/badge/Network_Walks-B083-purple?style=for-the-badge&logo=linux&logoColor=white)
 ![PDF Password Recovery](https://img.shields.io/badge/PDF_Password-Recovery-darkgreen?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)
 ![ExifTool](https://img.shields.io/badge/ExifTool-v12.70-blueviolet?style=for-the-badge&logo=exiftool&logoColor=white)
 ![Commands](https://img.shields.io/badge/Commands-Bash_%26_CLI-black?style=for-the-badge&logo=gnome-terminal&logoColor=white)
