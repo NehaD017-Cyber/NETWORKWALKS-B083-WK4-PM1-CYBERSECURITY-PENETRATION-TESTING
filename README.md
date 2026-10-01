@@ -245,7 +245,7 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 
 ## M i l e s t o n e 4
 
-
+<img width="401" height="222" alt="Screenshot 2026-10-01 194241" src="https://github.com/user-attachments/assets/0db5e75c-ccab-4ae6-ad15-f41dad386545" />
 
 ## ✍️ Penetration Testing Assessment Report
 
@@ -254,6 +254,8 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 **Authorization:** Granted (5-Day Engagement Window by Mediroza Hospital)  
 **Status:** Completed  
 **Date:** October 1, 2026  
+
+<img width="398" height="227" alt="Screenshot 2026-10-01 194440" src="https://github.com/user-attachments/assets/c3a86adc-e0f4-423d-a1ee-f78ba4755daf" />
 
 ---
 ## 01. Executive Summary
