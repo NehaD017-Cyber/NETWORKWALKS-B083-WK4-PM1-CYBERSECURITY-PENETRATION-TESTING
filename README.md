@@ -106,8 +106,6 @@ Recommendations & Remediation: Actionable defense-in-depth guidance to patch ide
 
 ---
 
-## M1
-
 ## M i l e s t o n e 1
 
 Attack the website and find the 3 confidential PDF lab reports of patients.
@@ -140,7 +138,6 @@ WhatWeb – A web technology identifier that scans websites to detect technologi
 Proof of access and the 3 retrieved PDF files.
 
 ---
-## M2
 
 ## M i l e s t o n e 2
 
@@ -175,7 +172,6 @@ PDF Password Recovery – A general classification of utilities or software desi
 Recovered contents of all 3 files with proof of successful access.
 
 ---
-## M3
 
 ## M i l e s t o n e 3
 
@@ -227,14 +223,17 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 
 * Outputs:
 
+<img width="1910" height="940" alt="exiftool1" src="https://github.com/user-attachments/assets/b55f2dee-4c12-4aac-a6e0-106db2f8107e" />
 
+<img width="1044" height="465" alt="exiftool2" src="https://github.com/user-attachments/assets/4a0c6fa1-4efb-407d-aa88-5454d75d648c" />
 
+<img width="1919" height="853" alt="staff" src="https://github.com/user-attachments/assets/ea70b6dd-c554-4444-8139-0cbd47925bcd" />
 
+<img width="1919" height="861" alt="shareholder and salary" src="https://github.com/user-attachments/assets/30681af9-3539-463f-b42e-53487820e33f" />
 
+---
 
-
-
-
+## M i l e s t o n e 4
 
 
 
