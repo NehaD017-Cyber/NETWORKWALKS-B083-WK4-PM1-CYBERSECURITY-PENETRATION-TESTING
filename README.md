@@ -1,6 +1,10 @@
 # NETWORKWALKS-B083-WK4-PM1-CYBERSECURITY-PENETRATION-TESTING-AND-VULNERABILITY-ASSESSMENT
 
+---
+
 A comprehensive hands-on penetration testing project evaluating the security posture of Mediroza General Hospital. Covers target reconnaissance, vulnerability assessment, initial system access, credential cracking, and a final risk remediation report.
+
+---
 
 <!-- Core Domain & Tools -->
 ![Cybersecurity](https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=cyberdefenders&logoColor=white)
@@ -26,6 +30,8 @@ A comprehensive hands-on penetration testing project evaluating the security pos
 Full black-box penetration test. Identify vulnerabilities, exploit them to demonstrate real impact, and document all findings in a
 professional report.
 
+---
+
 ## 🔎 Project Overview
 
 This project executes a structured Penetration Testing and Vulnerability Assessment to evaluate and secure a target environment. The primary objective is to identify system vulnerabilities, demonstrate exploit vectors, and deliver actionable remediation strategies.
@@ -40,6 +46,8 @@ The assessment is structured into four sequential milestones:
 
 * PenTest Report: Documenting security flaws, technical findings, and mitigation recommendations
 
+---
+
 ## 🎯 Objectives
 
 #### Milestone 1: Target Reconnaissance & Initial Access
@@ -53,6 +61,8 @@ Analyze authentication mechanisms and input handling controls.
 
 Identify configuration issues to simulate gaining unauthorized access to restricted application areas.
 
+---
+
 #### Milestone 2: File Analysis & Credential Recovery
 * Objective: Analyze restricted assets and retrieve protected data through local file decryption and password recovery techniques.
 
@@ -64,6 +74,8 @@ Select appropriate security utilities and wordlists (e.g., John the Ripper, Hash
 
 Evaluate multiple decryption strategies based on file structures and hashes.
 
+---
+
 #### Milestone 3: Data Analysis & Risk Identification
 * Objective: Examine retrieved assets and file metadata to locate underlying data exposures within the client infrastructure.
 
@@ -74,6 +86,8 @@ Inspect file properties, hidden metadata, and embedded content across extracted 
 Identify secondary server exposures, exposed employee salary lists, and hospital shareholder documentation.
 
 Document data exposure findings for risk assessment.
+
+---
 
 #### Milestone 4: Penetration Testing Report Documentation
 * Objective: Compile technical findings into a professional security audit report detailing vulnerabilities, impact ratings, and remediation steps.
@@ -100,12 +114,14 @@ Attack the website and find the 3 confidential PDF lab reports of patients.
 
 <img width="398" height="224" alt="Screenshot 2026-09-28 213214" src="https://github.com/user-attachments/assets/f33a4790-bedb-49ce-91b5-693f0871b0d5" />
 
+---
 * Reconnaissance and Initial Accesss.
 
   Enumerate the external attack surface, identify accessible application components, and access authentication mechanisms. 
 
 <img width="639" height="332" alt="Screenshot 2026-09-27 210748" src="https://github.com/user-attachments/assets/12bff445-64d1-4d02-975c-ca35c0008a39" />
 
+---
 * Tools include:
 
 Nmap – A powerful network scanning and discovery tool used to detect live hosts, open ports, running services, and operating systems on a network.
@@ -115,7 +131,7 @@ Gobuster – A high-speed command-line tool used to brute-force and discover hid
 Nikto – An open-source web server scanner that tests for dangerous files, outdated server software, configuration vulnerabilities, and security risks.
 
 WhatWeb – A web technology identifier that scans websites to detect technologies in use, including CMS platforms, web servers, embedded scripts, and analytics tools.
-
+---
 * Outputs:
 
 <img width="632" height="338" alt="Screenshot 2026-09-28 215455" src="https://github.com/user-attachments/assets/e5689dfb-f3db-4f91-be56-87535722162f" />
@@ -133,6 +149,7 @@ Proof of access and the 3 retrieved PDF files.
 
 Recover the passwords of those locked pdfs that we get from patient portal.
 
+---
 * Tools include:
 
 Python – A versatile, high-level programming language widely used in cybersecurity for automating security workflows, writing custom analysis scripts, and handling file data programmatically.
@@ -144,7 +161,7 @@ John the Ripper – A fast, open-source password security auditing tool designed
 Networkwalks tools – A suite of training utilities and scripts provided within the Networkwalks curriculum for performing controlled lab exercises, credential auditing, and security lab demonstrations.
 
 PDF Password Recovery – A general classification of utilities or software designed to analyze PDF document protection settings, remove known restrictions, or test password strength on encrypted PDF documents.
-
+---
 * Outputs:
 
 <img width="398" height="313" alt="red1" src="https://github.com/user-attachments/assets/0c5f40e7-8673-40ac-a033-e44f7f31cf55" />
@@ -167,6 +184,8 @@ Recovered contents of all 3 files with proof of successful access.
 • Find the salaries of all hospital employees.
 
 • Find the shareholder details of the hospital.
+
+---
 
 * Tools include:
  Exiftool - Deep structural metadata extraction and recursive stream analysis on decrypted PDF files.
@@ -202,6 +221,8 @@ Old Directory
 ```bash
 curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_backup_2019.sql
 ```
+---
+
 * Outputs:
 
 
