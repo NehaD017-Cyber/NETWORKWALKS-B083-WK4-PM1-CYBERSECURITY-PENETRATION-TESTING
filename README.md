@@ -23,9 +23,19 @@ A comprehensive hands-on penetration testing project evaluating the security pos
 ![Password Recovery](https://img.shields.io/badge/Password_Recovery-D14836?style=for-the-badge&logo=1password&logoColor=white)
 ![Data Extraction](https://img.shields.io/badge/Data_Extraction-8E44AD?style=for-the-badge&logo=elasticsearch&logoColor=white)
 
-<!-- Target & Lab Info -->
 ![Target: Mediroza General Hospital](https://img.shields.io/badge/Target-Mediroza_General_Hospital-E63946?style=for-the-badge&logo=hospital&logoColor=white)
 ![Network Walks](https://img.shields.io/badge/Network_Walks-008080?style=for-the-badge&logo=cisco&logoColor=white)
+
+![Gobuster](https://img.shields.io/badge/Gobuster-v3.6-blue?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Nikto](https://img.shields.io/badge/Nikto-v2.5-red?style=for-the-badge&logo=kali-linux&logoColor=white)
+![WhatWeb](https://img.shields.io/badge/WhatWeb-v0.5.5-brightgreen?style=for-the-badge&logo=firefox&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![pikepdf](https://img.shields.io/badge/pikepdf-v8.0-yellow?style=for-the-badge&logo=python&logoColor=white)
+![John The Ripper](https://img.shields.io/badge/John_The_Ripper-JTR-orange?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Network Walks Tools](https://img.shields.io/badge/Network_Walks-B083V4-purple?style=for-the-badge&logo=linux&logoColor=white)
+![PDF Password Recovery](https://img.shields.io/badge/PDF_Password-Recovery-darkgreen?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)
+![ExifTool](https://img.shields.io/badge/ExifTool-v12.70-blueviolet?style=for-the-badge&logo=exiftool&logoColor=white)
+![Commands](https://img.shields.io/badge/Commands-Bash_%26_CLI-black?style=for-the-badge&logo=gnome-terminal&logoColor=white)
 
 Full black-box penetration test. Identify vulnerabilities, exploit them to demonstrate real impact, and document all findings in a
 professional report.
@@ -237,9 +247,54 @@ curl -s -o mediroza_db_backup_2019.sql https://[TARGET_DOMAIN]/old/mediroza_db_b
 
 
 
+## ✍️ Penetration Testing Assessment Report
+**Target System:** Mediroza Hospital Web Infrastructure (`NetworkWalks B083`)  
+**Assessment Type:** Penetration Testing Project  
+**Authorization:** Granted (5-Day Engagement Window by Mediroza Hospital)  
+**Status:** Completed  
+**Date:** October 1, 2026  
+---
+## 01. Executive Summary
+An authorized penetration testing engagement was conducted against the **Mediroza Hospital** web infrastructure to evaluate its overall security posture, identify potential attack vectors, and assess the risk of unauthorized data exposure. 
+> **Authorization Statement:** This assessment was fully authorized by Mediroza Hospital management under a formal agreement granting permission to conduct security testing over a designated 5-day window. All activities were carried out strictly within the defined target scope and timeframe.
+The assessment revealed critical security vulnerabilities across the web application and document processing pipeline. Unlinked directories and improper access controls allowed initial entry to restricted areas, enabling the retrieval of confidential patient lab reports (**Milestone 1**). Weak file-level encryption mechanisms permitted local password recovery and decryption of protected assets (**Milestone 2**). Subsequent structural analysis using ExifTool and stream inspection exposed sensitive administrative records, including internal employee salary structures and hospital shareholder details (**Milestone 3**).
+### High-Level Vulnerability Summary
 
+| Finding ID | Vulnerability Title | Risk Level | Primary Impact |
+| :--- | :--- | :--- | :--- |
+| **VULN-01** | Broken Access Control & Directory Enumeration | **High** | Unauthorized access to restricted patient PDF assets |
+| **VULN-02** | Weak Document Encryption Parameters | **Medium** | Offline credential cracking of protected file assets |
+| **VULN-03** | Sensitive Metadata & Administrative Data Exposure | **Critical** | Confidential employee payroll & shareholder data leakage |
 
+---
+## 02. Scope and Methodology
+### Scope & Authorization
+* **Client / Target:** Mediroza Hospital Web Server (`Network Walks B083V4`)
+* **Authorization Status:** Written Permission Granted
+* **Authorized Engagement Window:** 5 Days
+* **Testing Boundaries:** Web application endpoints, exposed file directories, document encryption implementations, and administrative metadata.
+### Toolstack & Environment
+* **OS & Environment:** Kali Linux (VirtualBox)
+* **Reconnaissance & Web Auditing:** Nmap, Gobuster, Nikto, WhatWeb
+* **File & Decryption Analysis:** Python (`pikepdf`), John the Ripper, Linux Text Utilities (`grep`, `strings`, ExifTool)
+### Methodology
+The assessment followed standard penetration testing frameworks (OWASP & PTES), structured across four core phases:
 
+---
+
+## 👤 Author
+
+NEHA
+
+Cybersecurity Intern B083
+
+LinkedIn: https://www.linkedin.com/in/neha-d-846342-nd
+
+---
+
+## 🏹 Project Information 
+
+Program Name: Cybersecurity at NetworkWalks | Week: 04 | Project: Penetration testing project | Repository: GitHub
 
 
 
